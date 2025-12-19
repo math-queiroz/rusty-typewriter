@@ -43,6 +43,10 @@
   border-top: 1px var(--dim-color) solid; 
 }
 
+.flat-list-item > div > a {
+  display: block;
+}
+
 .flat-list-item > small {
   overflow: hidden;
   text-align: justify;
