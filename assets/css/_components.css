@@ -43,8 +43,13 @@
   border-top: 1px var(--dim-color) solid; 
 }
 
+.flat-list-item > div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
 .flat-list-item > div > a {
-  display: block;
+  overflow-wrap: break-word;
 }
 
 .flat-list-item > small {
