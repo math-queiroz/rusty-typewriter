@@ -1,0 +1,40 @@
+# Root
+theme_light: Tema Claro
+theme_dark: Tema Oscuro
+
+# Not found (404)
+not_found_title: ¡Uy, página no encontrada!
+not_found_desc: No todos los que vagan están perdidos, pero no queda nada por explorar aquí
+not_found_home_link: Volver al inicio
+
+# Footer
+scroll_top: Volver arriba
+footer: Hecho con ❤️ y usando el tema {{ .ThemeAnchor }} para {{ .HugoAnchor }}
+
+# Home
+featured_posts: Publicaciones destacadas
+recent_posts: Publicaciones recientes
+
+# Search
+js_required: Es necesario habilitar Javascript
+search_loading: Cargando...
+search_placeholder: Buscar...
+
+# SidePane for home
+see_all: Ver todo...
+
+# Page
+breadcrumb_home: Inicio
+
+# SidePane for single pages
+details_words: palabras
+details_read_time: minutos de lectura
+side_table_of_contents: Tabla de Contenidos
+side_attachments: Adjuntos
+side_related: Relacionados
+
+# Taxonomies Displayed Names
+taxonomies:
+  tags: "etiquetas"
+  series: "series"
+  topics: "temas"
