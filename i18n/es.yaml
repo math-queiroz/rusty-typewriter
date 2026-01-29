@@ -32,9 +32,3 @@ details_read_time: minutos de lectura
 side_table_of_contents: Tabla de Contenidos
 side_attachments: Adjuntos
 side_related: Relacionados
-
-# Taxonomies Displayed Names
-taxonomies:
-  tags: "etiquetas"
-  series: "series"
-  topics: "temas"
