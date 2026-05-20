@@ -33,7 +33,7 @@ hugo new site my-blog
 cd my-blog
 ```
 
-3. Install the theme from by cloning the GIT repository
+3. Install the theme by cloning the GIT repository
 
 ```sh
 git clone https://github.com/math-queiroz/rusty-typewriter themes/rusty-typewriter
