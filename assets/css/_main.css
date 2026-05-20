@@ -141,7 +141,7 @@ a {
 }
 
 a:hover {
-  color: color-mix(in lab, var(--primary-color) 60%, #fff 40%);
+  color: color-mix(in lab, var(--primary-color) 60%, var(--hover-dim-color) 40%);
 }
 
 a > svg {
