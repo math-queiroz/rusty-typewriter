@@ -1,11 +1,11 @@
 {{- if site.Params.rtwt.home.showBio -}}
   <div class="centered-container">
     {{- if site.Params.rtwt.home.showAuthorImg -}}
-      <img style="border: var(--dim-color) 1px solid;border-radius:100%;" width="70px" src="{{- site.Data.rtwt.content.home.image | default "images/profile.jpg" -}}"/>
+      <img style="border: var(--dim-color) 1px solid;border-radius:100%;" width="70px" src="{{- hugo.Data.rtwt.content.home.image | default "images/profile.jpg" -}}"/>
     {{- end -}}
 
-    <h1 class="margin-sm">{{- site.Data.rtwt.content.home.greetings -}}</h1>
-    <div class="dim" style="width:70%;margin:0 15%;">{{- site.Data.rtwt.content.home.text -}}
+    <h1 class="margin-sm">{{- hugo.Data.rtwt.content.home.greetings -}}</h1>
+    <div class="dim" style="width:70%;margin:0 15%;">{{- hugo.Data.rtwt.content.home.text -}}
     </div>
   </div>
 {{- end -}}

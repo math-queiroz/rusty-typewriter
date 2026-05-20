@@ -1,6 +1,6 @@
 {{- with .section }}
   {{- $section := . -}}
-  {{- $data := index site.Data.rtwt.content.side $section -}}
+  {{- $data := index hugo.Data.rtwt.content.side $section -}}
   {{- range $data -}}
     <div class="side-content">
       <h3>{{- .title -}}</h3>
