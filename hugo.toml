@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-US'
+locale = 'en-US'
 title = 'My New Hugo Site'
 
 [rusty_typewriter]
  [params.rtwt]
   sidePane = true
-  countPageItems = 7 
+  countPageItems = 7
   searchPath = 'search'
  [params.rtwt.home]
   showBio = true
@@ -16,13 +16,13 @@ title = 'My New Hugo Site'
   hideRecentWhenFeatured = true
   countRecent = 5
  [params.rtwt.side.home]
-  sidePaneSticky = false 
+  sidePaneSticky = false
   taxonomies = ['tags']
   countTaxonomy = 6
  [params.rtwt.side.list]
   sidePaneSticky = false
  [params.rtwt.side.single]
-  sidePaneSticky = true 
+  sidePaneSticky = true
   showDetails = true
   showTableOfContents = true
   showAttachments = true
