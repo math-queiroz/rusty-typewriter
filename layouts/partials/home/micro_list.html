@@ -3,7 +3,7 @@
 
 <h2>{{- $title -}}</h2>
 <div class="flat-list">
-  {{- range first (default 5 site.Params.rtw_theme.params.home.countRecent) $items -}}
+  {{- range first (default 5 site.Params.rtwt.home.countRecent) $items -}}
     <div class="flat-list-item">
       <div>
         <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a>
