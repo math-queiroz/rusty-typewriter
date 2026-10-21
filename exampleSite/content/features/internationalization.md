@@ -10,6 +10,11 @@ Rusty Typewriter supports internationalization (i18n) files for localizing its s
 theme_light: Light Theme
 theme_dark: Dark Theme
 
+# Not found (404)
+not_found_title: Whoops, page not found!
+not_found_desc: Not all who wander are lost, but there's nothing left to explore here
+not_found_home_link: Go Home
+
 # Footer
 scroll_top: Scroll to Top
 footer: Made with ❤️ and powered by {{ .ThemeAnchor }} theme for {{ .HugoAnchor }}
@@ -18,8 +23,12 @@ footer: Made with ❤️ and powered by {{ .ThemeAnchor }} theme for {{ .HugoAnc
 featured_posts: Featured Posts
 recent_posts: Recent Posts
 
+# Search
+js_required: It's necessary to enable Javascript
+search_loading: Loading...
+search_placeholder: Search...
+
 # SidePane for home
-search: Search...
 see_all: See all...
 
 # Page
