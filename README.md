@@ -12,15 +12,11 @@ A minimalist and elegant Hugo theme styled towards a warm color pallete. Perfect
 
 ## Features
 
-- 🎨 Clean, minimalist design
-- 📱 Fully responsive layout
-- 🔍 Built-in search functionality
-- 📚 Table of contents support
-- 🏷️ Custom taxonomies by default
-- 📝 Rich markdown support with syntax highlighting
-- 📋 Customizable sidebar
-- 🔄 Related posts suggestions
-- 📎 File attachments support
+- Clean & Minimalist design
+- Responsive layout
+- Built-in search
+- Table of contents
+- File attachments
 
 ## Quick Start
 
